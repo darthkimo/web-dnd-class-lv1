@@ -1,0 +1,21 @@
+.fruit{
+	font-style: italic;
+	width: 100px;
+	height: 100px;
+	margin: 5px;
+	padding: 10px;
+	float: left;
+	border-radius: 15px;
+}
+#apple {
+	background-color: green;
+	color: white;
+}
+#banana {
+	background-color: yellow;
+	color: black;
+}
+#cherry {
+	background-color: red;
+	color: white;
+}

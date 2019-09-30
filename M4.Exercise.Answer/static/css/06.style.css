@@ -1,0 +1,14 @@
+.basic {
+	font-family: 'georgia';
+	line-height: 1.5em;
+	background-color: gray;
+}
+.advanced {
+	color: white;
+	width: 370px;
+}
+.side {
+	margin: 0 auto;
+	padding: 30px;
+}
+

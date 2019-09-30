@@ -1,0 +1,17 @@
+blockquote {
+	font-family: "helvetica";
+	font-size: 19px;
+	color: grey;
+	background-color: #d4dadf;
+	padding: 20px;
+}
+span.red {
+	color: red;
+	font-style: italic;
+}
+span.green {
+	color: green;
+	font-style: italic;
+}
+
+

@@ -1,0 +1,33 @@
+h1 {
+	font-family: 'georgia';
+	font-size: 36px;
+	text-transform: capitalize;
+	line-height: 1em;
+	color: #be5b5b;
+	margin-bottom: -.4em;
+}
+
+h2 {
+	font-family: 'georgia';
+	font-size: 19px;
+	font-style: italic;
+	text-transform: capitalize;
+	color: gray;
+	margin-bottom: 1em;
+}
+
+p {
+	font-family: 'georgia';
+	line-height: 1.5em;
+	color: #be5b5b;
+	width: 370px;
+}
+
+ul {
+	color: #fff8f8;
+	list-style: square;
+	background-color: #be5b5b;
+	padding: 20px 0 20px 50px;
+	width: 350px;
+	line-height: 1.5em;
+}
