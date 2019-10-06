@@ -1,0 +1,13 @@
+body {
+	color: #555;
+	font-family: Verdana, sans-serif;
+	font-size: 14px;
+}
+
+h1 {
+	font-size: 22px;
+}
+
+p span{
+	color: #849b31;
+}
