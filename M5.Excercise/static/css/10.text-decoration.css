@@ -1,0 +1,28 @@
+h1 {
+	color: #555;
+	font-family: Verdana, sans-serif;
+	font-size: 22px;
+	font-weight: bold;
+	line-height: 24px;
+	margin-bottom: 10px;
+}
+
+.overline {
+	/* Adding text decoration here */
+}
+
+.line-through {
+	/* Adding text decoration here */
+}
+
+.underline {
+	/* Adding text decoration here */
+}
+
+.blue-wavy-underline {
+	/* Adding text decoration here */
+}
+
+.red-dotted-line-through {
+	/* Adding text decoration here */
+}

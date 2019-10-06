@@ -1,0 +1,19 @@
+body {
+	font-family: Verdana, sans-serif;
+	color: #555;
+}
+h1 {
+	font-size: 24px;
+}
+p {
+  font-size: 18px;
+}
+.small {
+	/* Adding line height here */
+}
+.medium {
+	/* Adding line height here */
+}
+.large	{
+	/* Adding line height here */
+}

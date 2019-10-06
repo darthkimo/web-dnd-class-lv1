@@ -1,0 +1,13 @@
+body {
+	color: #555;
+	font-family: Verdana, sans-serif;
+	/* Adding font-size here */
+}
+
+h1 {
+	/* Adding font-size here */
+}
+
+p span{
+	color: #849b31;
+}
