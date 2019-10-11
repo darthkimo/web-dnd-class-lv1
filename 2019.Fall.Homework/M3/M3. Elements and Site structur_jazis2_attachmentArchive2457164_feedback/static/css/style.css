@@ -1,0 +1,44 @@
+header,
+nav,
+main,
+aside,
+footer {
+  background-color: white;
+  border: 3px solid none;
+  box-sizing: border-box;
+  min-height: 100px;
+  padding: 10px;
+}
+
+header, footer {
+  width: 100%;
+}
+
+main, aside {
+  float: left;
+  height: 1300px;
+}
+aside {
+  float: right;
+  height: 1300px;
+}
+
+nav {
+  width: 100%;
+}
+
+aside {
+  width: 20%;
+  align-content: center
+}
+
+main {
+  width:80%;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+article {
+  background-color: none;
+    min-height: 100px;
+}
