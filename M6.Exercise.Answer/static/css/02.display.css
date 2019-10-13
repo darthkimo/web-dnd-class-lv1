@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+	color: #444;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+}
+
+.display_inline {
+  color: white;
+  background-color: orchid; 
+  border: 1px solid red;  
+  display: inline; /* the default for span */
+  height: 100px;
+  width: 100px;
+  padding: 5px;
+}
+
+.display_inline-block {
+  color: white;
+  background-color: orchid; 
+  border: 1px solid red; 
+  display: inline-block;
+  height: 100px;
+  padding: 5px;
+  width: 100px;
+}
+
+.display_block {
+  color: white;
+  background-color: orchid;
+  border: 1px solid red; 
+  display: block;
+  height: 100px;
+  padding: 5px;
+  width: 100px;
+}

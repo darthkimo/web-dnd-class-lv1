@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+	color: #444;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+}
+
+header, footer, main {
+  background-color: #999;
+  padding: 10px;
+}
+
+.column {
+  background-color: #fff;
+  min-height: 200px;
+  margin-bottom: 15px;
+}
+
+.header-wrapper,
+.main-nav-wrapper,
+.column-wrapper, 
+.footer-wrapper {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.main-nav, footer {
+  background-color: #333;
+  color: #fff;
+}
+
+.main-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.main-nav li {
+  float: left;
+  margin-right: 10px;
+}
+
+.main-nav a {
+  color: white;
+  display: block;
+  text-decoration: none;
+  padding: 10px;
+}
+.main-nav a:hover {
+  color: black;
+  background-color: white;
+}
+
+
+
+.float-right {
+  float: right;
+}
+
+.clearfix::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+footer a {
+  color: #fff;
+}
+
+.column-layout_two-columns .column {
+  float: left;
+  width: 49%;
+  margin-right: 2%;
+}
+
+.column-layout_two-columns .column:last-child {
+  margin-right: 0;
+}
+
+.column-layout_three-columns .column {
+  float: left;
+  width: 33%;
+  margin-right: 0.5%;
+}
+
+.column-layout_three-columns .column:last-child {
+  margin-right: 0;
+}
