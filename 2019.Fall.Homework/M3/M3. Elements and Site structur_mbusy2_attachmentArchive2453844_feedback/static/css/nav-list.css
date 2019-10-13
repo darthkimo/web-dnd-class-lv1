@@ -1,0 +1,40 @@
+
+nav li {
+  float: left;
+}
+
+nav a {
+  text-decoration: none;
+  ;
+  color: #EDD7D7 ;
+  display: block;
+  padding: 10px;
+}
+
+nav a:hover {
+  background-color: #EDD7D7;
+  color: #FFFFFF;
+}
+
+nav ul {
+    left: 45px;
+    top: 81px;
+    position: absolute;
+    z-index: 100;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    letter-spacing: 4px;
+    color: #231F20;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    margin-right: 44px;
+    float: left;
+    list-style: none;
+    font-size: 14px;
+    width: 783px;
+}
+
+header ul li.logo {
+	margin-right: 95px;}
+
+	
