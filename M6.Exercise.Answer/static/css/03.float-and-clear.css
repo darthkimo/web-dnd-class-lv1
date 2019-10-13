@@ -57,38 +57,3 @@ body {
 .clear-right {
   clear: right;
 }
-
-
-.box {
-  float: left;
-	width: 200px;
-	height: 100px;
-	background-color: #333;
-}
-
-.box:nth-child(2) {
-  background-color: #666;
-}
-
-.box:nth-child(3) {
-  background-color: #999;
-}
-
-.box:nth-child(4){
-  background-color: #ccc;
-}
-
-
-.clearfix_overflow-auto {
-  overflow: auto;
-}
-
-.clearfix_overflow-hidden {
-  overflow: hidden;
-}
-
-.clearfix_persudo::after {
-  clear: both;
-  content: "";
-  display: table;
-}

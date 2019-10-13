@@ -54,20 +54,16 @@ header, footer, main {
   background-color: white;
 }
 
-
+footer a {
+  color: #fff;
+}
 
 .float-right {
   float: right;
 }
 
-.clearfix::after {
-  clear: both;
-  content: "";
-  display: table;
-}
-
-footer a {
-  color: #fff;
+.clearfix{
+  overflow: auto;
 }
 
 .column-layout_two-columns .column {
