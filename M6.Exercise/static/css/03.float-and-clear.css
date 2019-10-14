@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+	color: #444;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+}
+
+.container {
+  margin: 100px;
+}
+
+.container h1 {
+	color: #999;
+	margin-bottom: 0px;
+}
+.container p {
+	line-height: 1.5em;
+	color: #555;
+}
+
+.container .poster {
+  /* Add style here */
+}
+
+.poster img {
+  /* Add style here */
+}
+
+.float-left {
+  /* Add style here */
+}
+
+.float-right {
+  /* Add style here */
+}
+
+.poster.float-left {
+  margin-right: 30px;
+}
+
+.poster.float-right  {
+  margin-left: 30px;
+}
+
+.clear-left {
+  clear: left;
+}
+
+.clear-right {
+  clear: right;
+}
+.clearfix_overflow-auto {
+  overflow: auto;
+}
+
+.clearfix_overflow-hidden {
+  overflow: hidden;
+}
+
+.clearfix_persudo::after {
+  clear: both;
+  content: "";
+  display: table;
+}

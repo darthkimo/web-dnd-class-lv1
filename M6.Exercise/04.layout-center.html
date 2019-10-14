@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSS: Layout Center</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="static/css/normalize.css">
+    <link rel="stylesheet" href="static/css/04.layout.css">
+  </head>
+  <body>
+    <header>
+      <div class="header-wrapper">
+          <div>Logo</div>
+          <h1>Website Headline</h1>
+      </div>
+    </header>
+    <nav class="main-nav clearfix">
+      <div class="main-nav-wrapper">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact-us">Contact Us</a></li>
+        </ul>
+        <ul class="float-right">
+          <li><a href="04.layout-1-column.html">Layout 1</a></li>
+          <li><a href="04.layout-2-column.html">Layout 2</a></li>
+          <li><a href="04.layout-3-column.html">Layout 3</a></li>
+        </ul>
+      </div>
+    </nav>
+    <main>
+      <div class="column-wrapper column-layout_two-columns clearfix">
+          <div class="column"></div>
+          <div class="column"></div>
+      </div>
+      <div class="column-wrapper column-layout_three-columns clearfix">
+          <div class="column"></div>
+          <div class="column"></div>
+          <div class="column"></div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-wrapper">
+          <p>This is Footer</p>
+          <a href="mailto:contact@example.com">Email Me</a>
+      </div>
+    </footer>
+  </body>
+</html>
