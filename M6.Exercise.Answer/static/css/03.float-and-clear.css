@@ -24,7 +24,7 @@ body {
 .container .poster {
   background-color: #ccc;
   border: 1px solid #333;
-  width: 200px;
+  width: 100px;
   margin: 20px 0;
   padding: 5px;
 }
@@ -56,4 +56,17 @@ body {
 
 .clear-right {
   clear: right;
+}
+.clearfix_overflow-auto {
+  overflow: auto;
+}
+
+.clearfix_overflow-hidden {
+  overflow: hidden;
+}
+
+.clearfix_persudo::after {
+  clear: both;
+  content: "";
+  display: table;
 }
