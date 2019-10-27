@@ -1,0 +1,145 @@
+/* Global elements */
+.container {
+	margin: 100px;
+}
+
+.container > h1 {
+	font-family: 'Titillium Web', sans-serif;
+  font-size: 50px;
+	line-height: .9em;
+  margin-bottom: 0px;
+  text-transform: capitalize;
+}
+
+.square {
+	width: 100px;
+	height: 100px;
+	margin: 20px 20px 10px 0px;
+	float: left;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 110px;
+	text-align: center;
+	line-height: .85em;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	line-height: 1.5em;
+}
+
+/* Contrast Low Styles */
+
+.contrast__low {
+  background-color: #999;
+}
+
+.contrast__low .container > h1 {
+  color: #777;
+}
+
+.contrast__low .square {
+  background-color: #777;
+	color: #888;
+}
+
+.contrast__low .container p {
+  color: #777;
+}
+
+/* Contrast High Styles */
+
+.contrast__high {
+  background-color: #fff;
+}
+
+.contrast__high  .container > h1 {
+  color: #000;
+}
+
+.contrast__high  .square {
+  background-color: #000;
+	color: #fff;
+}
+
+.contrast__high  .container p {
+  color: #000;
+}
+
+
+/* Contrast Good Styles */
+
+.contrast__good {
+  background-color: #fdf6f6;
+}
+
+.contrast__good  .container > h1 {
+  color: #222;
+}
+
+.contrast__good  .square {
+	background-color: #222;
+	color: #eee;
+}
+
+.contrast__good  .container p {
+  color: #222;
+}
+
+/* Contrast Too Bright Styles */
+
+.contrast__too-bright {
+  background-color: #ffff00;
+}
+
+.contrast__too-bright  .container > h1 {
+  color: #ff0000;
+}
+
+.contrast__too-bright  .square {
+	background-color: #ff0000;
+	color: #ffff00;
+}
+
+.contrast__too-bright  .container p {
+  color: #ff0000;
+}
+
+/* Contrast Easy on the Eye Styles */
+
+.contrast__easy {
+  background-color: #f5ef75;
+}
+
+.contrast__easy  .container > h1 {
+  color: #ff0000;
+}
+
+.contrast__easy  .square {
+  background-color: #ff0000;
+	color: #f5ef75;
+}
+
+.contrast__easy  .container p {
+  color: #ff0000;
+}
+
+
+/* Contrast on brand Styles */
+
+.contrast__on-brand {
+  background-color: #fff;
+}
+
+.contrast__on-brand  .container > h1 {
+  color: #ff0000;
+}
+
+.contrast__on-brand  .square {
+  background-color: #ff0000;
+	color: #f5ef75;
+}
+
+.contrast__on-brand  .container p {
+  color: #333;
+}
