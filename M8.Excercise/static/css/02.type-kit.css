@@ -1,0 +1,37 @@
+body {
+	background-color: #f0eece;
+}
+
+#container {
+	margin: 100px;
+}
+
+#container > h1 {
+	font-family: "adelle",serif;
+	font-weight:900;
+	font-size: 50px;
+	line-height: .9em;
+	color: #2e2e2e;
+	margin-bottom: 0px;
+}
+
+.square {
+	background-color: #ff5959;
+	color: #f0eece;
+	float: left;
+	font-family: "adelle-sans",sans-serif;
+	font-size: 110px;
+	font-weight:900;
+	height: 100px;
+	line-height: .85em;
+	margin: 20px 20px 10px 0px;
+	text-align: center;
+	width: 100px;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	line-height: 1.5em;
+	color: #2e2e2e;
+}
