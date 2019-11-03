@@ -1,0 +1,101 @@
+.wrapper {
+  display: flex;  
+  flex-flow: row wrap;
+  font-weight: bold;
+  text-align: center;
+}
+
+.wrapper > * {
+  padding: 10px;
+  flex: 1 100%; /* (shorthand for flex-grow: 1, flex-basis: 100%)*/
+}
+
+.header {
+  background: tomato;
+}
+
+.footer {
+  background: lightgreen;
+}
+
+.main {
+  text-align: left;
+  background: deepskyblue;
+}
+
+.aside-1 {
+  background: gold;
+}
+
+.aside-2 {
+  background: hotpink;
+}
+
+.navigation {
+  display: flex;
+  list-style: none;
+  margin: 0; 
+  background: deepskyblue;
+  flex-flow: column wrap;
+  padding: 0;
+}
+
+.navigation a { 
+  text-decoration: none;
+  display: block;
+  color: white;
+  text-align: center; 
+  padding: 10px;
+  border-top: 1px solid rgba(255,255,255,0.3); 
+  border-bottom: 1px solid rgba(0,0,0,0.1); 
+}
+
+.navigation a:hover {
+  background: darken(deepskyblue, 2%);
+}
+
+.navigation li:last-of-type a {
+  border-bottom: none;
+}
+
+@media all and (min-width: 600px) {
+  .aside {
+    flex: 1 0 0;  /* (shorthand for flex-grow: 1, flex-shrink: 0, flex-basis: 0)
+ */
+  }
+
+  .navigation {
+    flex-flow: row wrap;
+    justify-content: space-around;
+  }
+}
+
+@media all and (min-width: 768px) {
+  .main { 
+    flex: 3 0px; /* (shorthand for flex-grow: 3, flex-shrink: 0,)
+  }
+
+  .aside-1 {
+    order: 1;
+  } 
+
+  .main { 
+    order: 2;
+  }
+
+  .aside-2 {
+    order: 3;
+  }
+
+  .footer {
+    order: 4;
+  }
+
+  .navigation {
+    justify-content: flex-end;
+  }
+}
+
+body {
+  padding: 2em; 
+}
