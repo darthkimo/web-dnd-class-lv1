@@ -25,8 +25,8 @@
 
 .flexbox-container__center {
 	height: 300px;
-	/* justify-content: center; */
-	/* align-items: center; */
+	 justify-content: center;
+	 align-items: center;
 }
 
 .flexbox-item__center {
@@ -34,21 +34,17 @@
 	border: 2px solid #c71b1b;
 	width: 100px;
 	height: 100px;
-	margin: auto;
 }
 
 .flexbox-container__playground {
-	flex-direction: row;  /* row | row-reverse | column | column-reverse */
-	flex-wrap: wrap; /* nowrap | wrap | wrap-reverse */
-	/* flex-flow: row wrap; */
-	height: 500px;
-	/*align-items: baseline;*/
-	/* stretch | flex-start | flex-end | center | baseline */
-	justify-content: space-evenly; /*flex-start | flex-end | center | space-between | space-around | space-evenly */
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
 }
 
 .flexbox-item__playground {
 	margin-top: 20px;
+	margin-bottom: 20px;
 	padding: 5px;
 	flex-basis: 200px;
 	flex-grow: 1;
@@ -73,8 +69,8 @@
 .flexbox-item_1 {
 	flex: 1 1 200px;
 }
-.flexbox-item_2 { 
-	flex: 2 2 200px; 
-} 
+.flexbox-item_2 {
+	flex: 2 2 200px;
+}
 
 /* Both flex items want to be 200px wide. Because of the flex-grow (first parameter), if the flex container is larger than 400px, the 2nd child will take twice as much leftover space as the first child. But if the parent element is less than 400px wide, then the 2nd child will have twice as much shaved off of it as the 1st child, making it look smaller (because of the 2nd parameter, flex-shrink). */
