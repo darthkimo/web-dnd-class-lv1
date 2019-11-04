@@ -1,0 +1,72 @@
+* {
+	box-sizing: border-box;
+}
+
+.flexbox-example {
+	border-bottom: 1px solid #666;
+	margin-bottom: 30px;
+	padding: 15px 30px 30px;
+}
+
+.flexbox-example:last-child {
+	border-bottom: none;
+}
+
+.flexbox-container {
+	background-color: #888;
+	border: 1px solid #333;
+	display: flex;
+}
+
+.flexbox-item {
+	background-color: #fbb9b9;
+	border: 2px solid #c71b1b;
+}
+
+.flexbox-container__center {
+	height: 300px;
+}
+
+.flexbox-item__center {
+	background-color: #fbb9b9;
+	border: 2px solid #c71b1b;
+	width: 100px;
+	height: 100px;
+}
+
+.flexbox-container__playground {
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.flexbox-item__playground {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 5px;
+	flex-basis: 200px;
+	line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center
+}
+
+.flexbox-container__grow-shrink {
+	padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.flexbox-item__grow-shrink {
+	padding: 10px;
+}
+
+.flexbox-item_1 {
+	flex: 1 1 200px;
+}
+.flexbox-item_2 {
+	flex: 2 2 200px;
+}
+
+/* Both flex items want to be 200px wide. Because of the flex-grow (first parameter), if the flex container is larger than 400px, the 2nd child will take twice as much leftover space as the first child. But if the parent element is less than 400px wide, then the 2nd child will have twice as much shaved off of it as the 1st child, making it look smaller (because of the 2nd parameter, flex-shrink). */
