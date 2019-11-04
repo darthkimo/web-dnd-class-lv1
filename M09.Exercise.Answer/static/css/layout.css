@@ -1,5 +1,5 @@
 .wrapper {
-  display: flex;  
+  display: flex;
   flex-flow: row wrap;
   font-weight: bold;
   text-align: center;
@@ -34,24 +34,24 @@
 .navigation {
   display: flex;
   list-style: none;
-  margin: 0; 
+  margin: 0;
   background: deepskyblue;
   flex-flow: column wrap;
   padding: 0;
 }
 
-.navigation a { 
+.navigation a {
   text-decoration: none;
   display: block;
   color: white;
-  text-align: center; 
+  text-align: center;
   padding: 10px;
-  border-top: 1px solid rgba(255,255,255,0.3); 
-  border-bottom: 1px solid rgba(0,0,0,0.1); 
+  border-top: 1px solid rgba(255,255,255,0.3);
+  border-bottom: 1px solid rgba(0,0,0,0.1);
 }
 
 .navigation a:hover {
-  background: darken(deepskyblue, 2%);
+  background: deepskyblue;
 }
 
 .navigation li:last-of-type a {
@@ -71,15 +71,15 @@
 }
 
 @media all and (min-width: 768px) {
-  .main { 
-    flex: 3 0px; /* (shorthand for flex-grow: 3, flex-shrink: 0,)
+  .main {
+    flex: 3 0px; /* (shorthand for flex-grow: 3, flex-shrink: 0,)*/
   }
 
   .aside-1 {
     order: 1;
-  } 
+  }
 
-  .main { 
+  .main {
     order: 2;
   }
 
@@ -97,5 +97,5 @@
 }
 
 body {
-  padding: 2em; 
+  padding: 2em;
 }
