@@ -1,0 +1,176 @@
+* {
+  box-sizing: border-box;
+}
+
+.section {
+  margin-bottom: 40px;
+}
+
+/* Navigation */
+
+.navigation {
+  list-style: none;
+  margin: 0;
+  background: deepskyblue;
+  padding: 0;
+}
+
+.navigation a {
+  text-decoration: none;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  border-top: 1px solid rgba(255,255,255,0.3);
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.navigation a:hover {
+  background: #0485b1;
+}
+
+.navigation li:last-of-type a {
+  border-bottom: none;
+}
+
+
+/* Grid */
+.wnm-wrapper {
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 0 16px;
+  width: auto
+}
+
+.wnm-grid {
+  margin: 0 -2.65152%
+}
+
+.wnm-grid__col {
+  flex: 0 1 auto;
+  margin: 0 2.65152%;
+  width: 100%
+}
+
+.wnm-grid__col--align-start {
+  align-self: flex-start
+}
+
+.wnm-grid__col--align-middle {
+  align-self: center
+}
+
+.wnm-grid__col--align-end {
+  align-self: flex-end
+}
+
+.wnm-grid__col--justify-center {
+  justify-content: center;
+}
+
+
+/* Hero */
+
+
+.wnm_50-50 img,
+.gallery-thumb img {
+  width: 100%;
+}
+
+@media all and (min-width: 600px) {
+  /* Navigation */
+  .navigation {
+
+  }
+
+  /* Grid */
+  .wnm-wrapper {
+    max-width: 1280px;
+    padding: 0 32px
+  }
+
+  .wnm-grid {
+    margin: 0 -1.03799%
+  }
+
+  .wnm-grid__col {
+    margin: 0 1.03799%
+  }
+  .wnm-grid__col--1 {
+    flex-basis: 6.25734%;
+    width: 6.25734%;
+    margin: 0 1.03799%
+  }
+
+  .wnm-grid__col--2 {
+    flex-basis: 14.59068%;
+    width: 14.59068%;
+    margin: 0 1.03799%
+  }
+
+  .wnm-grid__col--3 {
+    flex-basis: 22.92401%;
+    width: 22.92401%;
+    margin: 0 1.03799%
+  }
+
+  .wnm-grid__col--4 {
+    flex-basis: 31.25734%;
+    width: 31.25734%;
+    margin: 0 1.03799%
+  }
+
+  .wnm-grid__col--5 {
+    flex-basis: 39.59068%;
+    width: 39.59068%;
+    margin: 0 1.03799%
+  }
+
+  .wnm-grid__col--6 {
+    flex-basis: 47.92401%;
+    width: 47.92401%;
+    margin: 0 1.03799%
+  }
+
+  .wnm-grid__col--7 {
+    flex-basis: 56.25734%;
+    width: 56.25734%;
+    margin: 0 1.03799%
+  }
+
+  .wnm-grid__col--8 {
+    flex-basis: 64.59068%;
+    width: 64.59068%;
+    margin: 0 1.03799%
+  }
+
+  .wnm-grid__col--9 {
+    flex-basis: 72.92401%;
+    width: 72.92401%;
+    margin: 0 1.03799%
+  }
+
+  .wnm-grid__col--10 {
+    flex-basis: 81.25734%;
+    width: 81.25734%;
+    margin: 0 1.03799%
+  }
+
+  .wnm-grid__col--11 {
+    flex-basis: 89.59068%;
+    width: 89.59068%;
+    margin: 0 1.03799%
+  }
+
+  .wnm-grid__col--12 {
+    flex-basis: 97.92401%;
+    width: 97.92401%;
+    margin: 0 1.03799%
+  }
+}
+
+@media all and (min-width: 768px) {
+  .navigation {
+
+  }
+}
