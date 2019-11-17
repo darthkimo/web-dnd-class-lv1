@@ -1,0 +1,51 @@
+body {
+	background-color: #fff;
+	font-family: "Helvetica", sans-serif;
+}
+h1 {
+	margin: 10px auto;
+	width: 700px;
+	color: #f00000;
+}
+table {
+	margin: 0px auto;
+	width: 700px;
+}
+td {
+	width: 100px;
+	height: 100px;
+	border: 1px #f00000 solid;
+	vertical-align: top;
+	padding: 10px;
+	color: #f00000;
+	font-size: 14px;
+}
+.days td {
+	background-color: #f00000;
+	color: #fff;
+	font-size: 20px;
+	font-weight: bold;
+	border: 1px #fff solid;
+	border-bottom: 1px #f00000 solid;
+}
+.days td:nth-child(1) {
+	border-left: 1px #f00000 solid;
+}
+.days td:nth-child(7) {
+	border-right: 1px #f00000 solid;
+}
+.unused {
+	color: silver;
+	background-color: #ffe5e6;
+}
+td:hover {
+	color: #fff;
+	font-weight: bold;
+	background-color: #999;
+}
+.unused:hover {
+	background-color: #ffcfcf;
+}
+.days td:hover {
+	background-color: #f00000;
+}

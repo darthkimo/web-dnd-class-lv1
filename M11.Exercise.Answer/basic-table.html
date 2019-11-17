@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>basic table</title>
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+	<link rel="stylesheet" type="text/css" href="static/css/basic-table.css">
+</head>
+<body>
+	<h2>Regular Table</h2>
+	<table>
+		<tr>
+			<td>STATES</td>
+			<td>BEATLES</td>
+			<td>MEATS</td>
+		</tr>
+		<tr>
+			<td>Alaska</td>
+			<td>Ringo</td>
+			<td>Ham</td>
+		</tr>
+		<tr>
+			<td>Ohio</td>
+			<td>George</td>
+			<td>Chicken</td>
+		</tr>
+		<tr>
+			<td>Florida</td>
+			<td>Paul</td>
+			<td>Turkey</td>
+		</tr>
+	</table>
+	
+	<h2>Cell that spans two columns</h2>
+	
+	<table>
+		<tr>
+			<th>Name</th>
+			<th colspan="2">Telephone</th>
+		</tr>
+		<tr>
+			<td>Bill Gates</td>
+			<td>55577854</td>
+			<td>55577855</td>
+		</tr>
+	</table>
+	
+	<h2>Cell that spans two rows</h2>
+	
+	<table>
+		<tr>
+			<th>Name:</th>
+			<td>Bill Gates</td>
+		</tr>
+		<tr>
+			<th rowspan="2">Telephone:</th>
+			<td>55577854</td>
+		</tr>
+		<tr>
+			<td>55577855</td>
+		</tr>
+	</table>
+	
+	<h2>Table Caption</h2>
+	
+	<table>
+		<caption>Monthly savings</caption>
+		<tr>
+			<th>Month</th>
+			<th>Savings</th>
+		</tr>
+		<tr>
+			<td>January</td>
+			<td>$100</td>
+		</tr>
+		<tr>
+			<td>February</td>
+			<td>$50</td>
+		</tr>
+	</table>
+	
+	<h2>Table with merged cells</h2>
+	<p>This table gives some statistics about fruit
+		flies: average height and weight, and percentage
+		with red eyes (for both males and females).</p>
+	
+	<table border="1">
+		<caption><em>A test table with merged cells</em></caption>
+		<tr>
+			<th rowspan="2"></th>
+			<th colspan="2">Average</th>
+			<th rowspan="2">Red<br/>eyes</th>
+		</tr>
+		<tr>
+			<th>height</th>
+			<th>weight</th>
+		</tr>
+		<tr>
+			<th>Males</th>
+			<td>1.9</td>
+			<td>0.003</td>
+			<td>40%</td>
+		</tr>
+		<tr>
+			<th>Females</th>
+			<td>1.7</td>
+			<td>0.002</td>
+			<td>43%</td>
+		</tr>
+	</table>
+</body>
+</html>
