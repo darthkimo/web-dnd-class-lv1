@@ -1,0 +1,40 @@
+body {
+	background-color: #fff;
+	font-family: "Helvetica", sans-serif;
+	color: #fff;
+}
+
+.box {
+	width: 150px;
+	height: 150px;
+	padding: 20px;
+}
+
+#box-red {
+	position: relative;
+	width: 700px;
+	height: 400px;
+	background-color: #f00;
+	margin: 20px auto;
+}
+
+#box-black {
+	position: absolute;
+	top: 0;
+	right: 0;
+	background-color: #222;
+}
+
+#box-blue {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background-color: #0092ff;
+}
+
+#box-green {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	background-color: #419d33;
+}

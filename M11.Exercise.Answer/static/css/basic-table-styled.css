@@ -27,6 +27,6 @@ td {
 	color: #fff;
 }
 
-.column-pad {
+.column-header td {
 	padding: 20px 0px;
 }

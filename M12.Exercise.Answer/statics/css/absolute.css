@@ -1,0 +1,29 @@
+body {
+	background-color: #fff;
+	font-family: "Helvetica", sans-serif;
+	color: #fff;
+}
+
+.box {
+	width: 150px;
+	height: 150px;
+	padding: 20px;
+}
+
+#box-red {
+	background-color: #f00;
+}
+
+#box-black {
+	position: absolute;
+	top: 10%;
+	left: 10%;
+	background-color: #222;
+}
+
+#box-blue {
+	position: absolute;
+	top: 70px;
+	left: -50px;
+	background-color: #0092ff;
+}

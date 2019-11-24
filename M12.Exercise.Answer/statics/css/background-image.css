@@ -1,0 +1,21 @@
+body {
+	background-color: #666;
+	
+}
+.bg-img{
+	width: 1600px;
+	height: 1000px;
+	/* setting background image below*/
+	background-color: #333;
+	background-image:  url(../img/bg_academics.jpg);
+	background-repeat: no-repeat;/*default is repeat*/
+	
+	/*let's see hat background-position can do for your image
+	background-position:bottom right;*/
+	background-attachment:scroll;
+	
+}
+
+.bg-img--cover {
+	background-size:cover;
+}

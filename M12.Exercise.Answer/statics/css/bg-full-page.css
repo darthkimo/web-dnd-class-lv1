@@ -1,0 +1,29 @@
+html {
+	background: url(../img/bg_academics.jpg) center center no-repeat fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	
+}
+
+h1 {
+	width: 200px;
+	height: auto;
+	font-family: "lato", sans-serif;
+	font-weight: 100;
+	font-size: 2em;
+	line-height: 1em;
+	text-align: center;
+	margin: 10px;
+	padding: 30px;
+	color: rgba(255, 255, 255, 0.8);
+	background-color: rgba(255, 5, 5, 0.7);
+}
+
+h1 span {
+	font-size: .3em;
+	line-height: 1em;
+	letter-spacing: .37em;
+}
+

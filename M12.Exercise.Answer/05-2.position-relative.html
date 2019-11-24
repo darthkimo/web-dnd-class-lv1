@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+				content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>CSS position: relative</title>
+	<link rel="stylesheet" type="text/css" href="statics/css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="statics/css/relative.css">
+</head>
+<body>
+	<div id="box-red" class="box">This box has no positioning, so it is placed at coordinates
+		0,0.
+	</div>
+	<div id="box-black" class="box">This box has relative positioning 50px from the top, so it is
+		moved 50px from its normal position, which would normally be directly under
+		the red box.
+	</div>
+	<div id="box-blue" class="box">This box should fall directly under the gray box, but it has a
+		relative position of -250 from the top and 250 from the left.
+	</div>
+</body>
+</html>

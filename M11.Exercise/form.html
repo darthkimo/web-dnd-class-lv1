@@ -1,0 +1,33 @@
+<! DOCTYPE html>
+<html>
+<head>
+<title>basic contact form</title>
+<link rel="stylesheet" type="text/css" href="static/css/normalize.css">
+<link rel="stylesheet" type="text/css" href="static/css/form.css">
+</head>
+	<body>
+		<form action="mailto:john@doe.com" method="post">
+			<label for="username">Your Name</label>
+			<input type="text" name="username" id="username">
+			
+			<label for="email">Your Email</label>
+			<input type="text" name="email" id="email">
+
+			<label for="how">How Did You Hear About Us?</label>
+			<select name="how" id="select">
+				<option value="none" selected>Please Select</option>
+				<option value="Google">Google</option>
+				<option value="Advertisement">Advertisement</option>
+				<option value="Friend">Friend</option>
+				<option value="Enemy">Enemy</option>
+				<option value="Pet">Family Pet</option>
+				<option value="Other">Other</option>
+			</select>
+			
+			<label for="comments">Comments</label>
+			<textarea name="comments" id="comments"></textarea>
+			
+			<input type="submit" name="submit" value="Submit" id="submit">
+		</form>
+	</body>
+</html>

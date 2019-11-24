@@ -1,0 +1,22 @@
+body {
+	font-family: 'Merriweather Sans', sans-serif;
+	background-color: #f9c;
+	color: #495018;
+}
+
+
+#content {
+	width: 500px;
+	height: 500px;
+	background-color: #e9e963;
+	margin: 50px auto;
+	padding: 10px;
+	font-size: 25px;
+	font-weight: 500;
+	line-height: 1.5em;
+	text-align: left;
+	overflow: scroll;
+	/*change over flow property see what happens*/
+}
+
+

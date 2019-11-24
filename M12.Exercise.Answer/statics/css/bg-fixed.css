@@ -1,0 +1,12 @@
+body {
+	background-image: url(../img/bg_academics.jpg);
+	
+	background-attachment: fixed;
+}
+
+.big-block {
+	background-color: rgba(0,0,0,.7);
+	width: 600px;
+	height: 300px;
+	margin: 20px auto;
+}
