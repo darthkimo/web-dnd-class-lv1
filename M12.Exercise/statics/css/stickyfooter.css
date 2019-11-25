@@ -1,0 +1,39 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-family: 'Merriweather Sans', sans-serif;
+	background-color: #ccc;
+	color: #333;
+	min-height: 100%;
+}
+
+.content {
+	min-height: 100%;
+	width: 100%;
+	font-size: 12px;
+	overflow: auto;
+}
+
+
+footer {
+	background-color: black;
+	width:100%;
+}
+
+#button {
+	float: right;
+	padding: 20px;
+	background-color: #f00;
+	color: #fff;
+	font-size: 20px;
+	font-weight: 700;
+	width:20%;
+}
+
+#button:hover {
+	background-color: #fff;
+	color: #f00;
+}
+

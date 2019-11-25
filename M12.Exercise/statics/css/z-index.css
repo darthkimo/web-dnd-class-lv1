@@ -1,0 +1,58 @@
+body {
+	background-color: #fff;
+	font-family: 'Merriweather Sans', sans-serif;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 700;
+	text-align: center;
+}
+div {
+	width:100px;
+	height:100px;
+	padding: 30px;
+}
+
+#page1 {
+	position:absolute;
+	top:100px;
+	left:100px;
+	background-color:#D50609;
+}
+
+#page2 {
+	position:absolute;
+	top:130px;
+	left:130px;
+	z-index:5;
+	background-color:rgba(248,100,0,0.9);
+}
+
+#page3 {
+	position:absolute;
+	top:160px;
+	left:160px;
+	z-index:10;
+	background-color:rgba(249,184,62,0.9);
+}
+
+#page4 {
+	position:absolute;
+	top:190px;
+	left:190px;
+	z-index:15;
+	background-color:rgba(235,247,39,0.9);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
