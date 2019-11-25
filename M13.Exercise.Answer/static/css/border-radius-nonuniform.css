@@ -1,0 +1,23 @@
+body {
+	font-size: 34px;
+	color: #eee;
+}
+
+.box {
+	width: 250px;
+	height: 250px;
+	background-color: #333;
+	margin: 80px auto;
+	text-align: center;
+	line-height: 250px;
+	color: #ccc;
+	
+	/* Add border-radius here */
+	border-top-left-radius: 50px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 50px;
+	border-bottom-left-radius: 0px;
+}
+
+
+
