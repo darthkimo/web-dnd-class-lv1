@@ -10,12 +10,10 @@ body {
 	background-image:  url(../img/bg_academics.jpg);
 	background-repeat: no-repeat;/*default is repeat*/
 	
-	/*let's see hat background-position can do for your image
-	background-position:bottom right;*/
-	background-attachment:scroll;
-	
-}
-
-.bg-img--cover {
+	/*let's see hat background-position can do for your image*/
+	background-position:bottom right;
+	/*let's see hat background-attachment can do for your image*/
+	background-attachment: scroll;
+	/*let's see hat background-size can do for your image*/
 	background-size:cover;
 }
