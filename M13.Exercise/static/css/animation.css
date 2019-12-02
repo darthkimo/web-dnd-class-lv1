@@ -1,0 +1,25 @@
+body {
+  font-size: 14px;
+  color: #eee;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  background-color: #000;
+  
+  /* Add animation configuration here*/
+  animation-name: change-color;
+  animation-duration: 4s;
+  animation-iteration-count: 1;
+}
+
+@keyframes change-color {
+  /* Add some key frame animation to change background color and with or height here */
+  0% {background-color: #000;width:200px;}
+  25% {background-color: red;width:210px;}
+  50% {background-color: blue;width:220px;}
+  75% {background-color: green;width:230px;}
+  100% {background-color: orange;width:240px;}
+}

@@ -1,0 +1,30 @@
+body {
+  font-size: 14px;
+  color: #eee;
+}
+
+.box {
+  float: left;
+  width: 100px;
+  height: 100px;
+  background-color: #333;
+  margin: 50px;
+  text-align: center;
+  color: #fff;
+}
+
+.rotate {
+  transform: rotate(45deg);
+}
+
+.translate {
+  transform: translate(0px, -30px);
+}
+
+.skew {
+  transform: skew(25deg);
+}
+
+.scale {
+  transform: scale(2);
+}
