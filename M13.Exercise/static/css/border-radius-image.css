@@ -11,7 +11,6 @@ body {
 	border: 10px #52b0b2 solid;
 
 	/* Add border-radius here */
-	border-radius: 50%;
 }
 
 img {
@@ -19,5 +18,4 @@ img {
 	margin: 20px auto;
 
 	/* Add border-radius here */
-	border-radius: 50%;
 }

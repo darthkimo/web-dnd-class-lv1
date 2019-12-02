@@ -25,22 +25,18 @@ h1 {
 
 .two {
   /* Add box-shadow here */
-  box-shadow: 2px 2px 4px 2px #CCC;
 }
 
 .three {
   /* Add box-shadow here */
-  box-shadow: -2px -2px 4px 2px #CCC;
 }
 
 .four {
   /* Add box-shadow here */
-  box-shadow: inset 0 0 50px #005102;
 }
 
 .five {
   /* Add box-shadow here */
-  box-shadow: 0 8px 10px -6px #000;
 }
 
 

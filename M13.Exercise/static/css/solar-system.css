@@ -11,7 +11,7 @@
   --jupiter-planet-size: calc(var(--sun-size) * .3);
   --jupiter-axis-size: calc(var(--sun-size) * 4.3);
   --saturn-planet-size: calc(var(--sun-size) * .26);
-  --saturn-axis-size: calc(var(--sun-size) * 5);
+  --saturn-axis-size: calc(var(--sun-size) * 5.2);
   --uranus-planet-size: calc(var(--sun-size) * .08);
   --uranus-axis-size: calc(var(--sun-size) * 5.8);
   --neptune-planet-size: calc(var(--sun-size) * .085);
@@ -46,28 +46,19 @@ html, body {
   position: relative;
   overflow: hidden;
   padding-top: 5%;
-  /*transform: skew(24deg, 13deg);*/
 }
 
-.solar-system .sun {
-  border-radius: 50%;
-  width: var(--sun-size);
-  height: var(--sun-size);
-  position: absolute;
-  z-index: 999;
-  background: radial-gradient(ellipse at center, #ffd000 1%, #f9b700 39%, #f9b700 39%, #e06317 100%);
-  box-shadow: 0 0 20px 12px rgba(255, 107, 0, 0.4), 0 0 22px 11px rgba(255, 203, 0, 0.13);
-}
 .solar-system div {
-  border-radius: 50%;
   top: 50%;
   left: 50%;
   position: absolute;
-  z-index: 999;
-  transform: translate(-50%, -50%);
-  animation-name: orbit-around-sun;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
+}
+
+.solar-system .sun {
+  width: var(--sun-size);
+  height: var(--sun-size);
+  position: absolute;
+  background: #f9b700;
 }
 
 .solar-system div:not(.sun) {
@@ -76,7 +67,6 @@ html, body {
 
 .solar-system div:not(.sun):before {
   left: 50%;
-  border-radius: 50%;
   content: "";
   position: absolute;
 }
@@ -84,42 +74,34 @@ html, body {
 .mercury {
   width: var(--mercury-axis-size);
   height: var(--mercury-axis-size);
-  animation-duration: 3s;
 }
 
 .mercury:before {
   width: var(--mercury-planet-size);
   height: var(--mercury-planet-size);
-  background-image: radial-gradient(ellipse at top left, #9f5e26 0%,  #efa667 66%);
-  transform: translate(-50%, calc(var(--mercury-planet-size) * -.5));
+  background: #9f5e26;
 }
 
 .venus {
   width: var(--venus-axis-size);
   height: var(--venus-axis-size);
-  animation-duration: 5s;
-  animation-delay: .2s;
 }
 
 .venus:before {
   width: var(--venus-planet-size);
   height: var(--venus-planet-size);
-  background-image: radial-gradient(ellipse at top left, #7e773f 0%, #fffac0 66%);
-  transform: translate(-50%, calc(var(--venus-planet-size) * -.5));
+  background: #7e773f;
 }
 
 .earth {
   width: var(--earth-axis-size);
   height: var(--earth-axis-size);
-  animation-duration: 7s;
-  animation-delay: .4s;
 }
 
 .earth:before {
   width: var(--earth-planet-size);
   height: var(--earth-planet-size);
-  background-image: radial-gradient(ellipse at top left, #005a8a 0%, #79c5f7 66%);
-  transform: translate(-50%, calc(var(--earth-planet-size) * -.5));
+  background: #005a8a;
 }
 
 /* Moon */
@@ -131,8 +113,6 @@ html, body {
   animation-name: orbit-around-sun;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-duration: 2s;
-  animation-delay: .6s;
   border: none !important;
 }
 
@@ -143,51 +123,42 @@ html, body {
   left: 50%;
   width: calc(var(--earth-planet-size) * .3);
   height: calc(var(--earth-planet-size) * .3);
-  border-radius: 50%;
-  background-image: radial-gradient(ellipse at bottom right, #9a7d00 0%, #fdfa90 66%);
+  background: #9a7d00;
 }
 
 .mars {
   width: var(--mars-axis-size);
   height: var(--mars-axis-size);
-  animation-duration: 9s;
-  animation-delay: .6s;
 }
 
 .mars:before {
   width: var(--mars-planet-size);
   height: var(--mars-planet-size);
-  background-image: radial-gradient(ellipse at top left, #8a2c00 0%, #c73800 66%);
-  transform: translate(-50%, calc(var(--mars-planet-size) * -.5));
+  background: #8a2c00;
 }
 
 .jupiter {
   width: var(--jupiter-axis-size);
   height: var(--jupiter-axis-size);
-  animation-duration: 10s;
-  animation-delay: .8s;
 }
 
 .jupiter:before {
   width: var(--jupiter-planet-size);
   height: var(--jupiter-planet-size);
-  background-image: radial-gradient(ellipse at top left, #954b2a 0%, #c76e2a 66%);
-  transform: translate(-50%, calc(var(--jupiter-planet-size) * -.5));
+  background: #954b2a;
 }
 
 .saturn {
   width: var(--saturn-axis-size);
   height: var(--saturn-axis-size);
-  animation-duration: 12s;
-  animation-delay: 1s;
 }
 
 .saturn:before {
   width: var(--saturn-planet-size);
   height: var(--saturn-planet-size);
-  background-image: radial-gradient(ellipse at top left, #4f3b28 0%, #a8835b 66%);
-  transform: translate(-50%, calc(var(--saturn-planet-size) * -.5));
+  background: #4f3b28;
 }
+
 .saturn:after {
   width: calc(var(--saturn-planet-size) * 1.25);
   height: calc(var(--saturn-planet-size) * 1.25);
@@ -196,57 +167,42 @@ html, body {
   top: 0;
   left: 50%;
   border: 2px solid #a8835b;
-  border-radius: 50%;
-  transform: translate(-50%, -50%);
 }
+
 .uranus {
   width: var(--uranus-axis-size);
   height: var(--uranus-axis-size);
-  animation-duration: 14s;
-  animation-delay: 1.2s;
 }
 
 .uranus:before {
   width: var(--uranus-planet-size);
   height: var(--uranus-planet-size);
-  background-image: radial-gradient(ellipse at top left, #779c9c 0%, #b5e3e3 66%);
-  transform: translate(-50%, calc(var(--uranus-planet-size) * -.5));
+  background: #779c9c;
 }
 
 .neptune {
   width: var(--neptune-axis-size);
   height: var(--neptune-axis-size);
-  animation-duration: 18s;
-  animation-delay: 1.4s;
 }
 
 .neptune:before {
   width: var(--neptune-planet-size);
   height: var(--neptune-planet-size);
-  background-image: radial-gradient(ellipse at top left, #163263 0%, #175e9e 66%);
-  transform: translate(-50%, calc(var(--neptune-planet-size) * -.5));
+  background: #163263;
 }
 
 .pluto {
   width: var(--pluto-axis-size);
   height: var(--pluto-axis-size);
-  animation-duration: 20s;
-  animation-delay: 1.8s;
 }
 
 .pluto:before {
   width: var(--pluto-planet-size);
   height: var(--pluto-planet-size);
-  background-image: radial-gradient(ellipse at top left, #7f684f 0%, #e7c194 66%);
-  transform: translate(-50%, calc(var(--pluto-planet-size) * -.5));
+  background: #7f684f;
 }
 
 @keyframes orbit-around-sun {
-  from {
-    transform: translate(-50%, -50%) rotate(0deg);
-  }
-  to {
-    transform: translate(-50%, -50%) rotate(360deg);
-  }
+
 }
 

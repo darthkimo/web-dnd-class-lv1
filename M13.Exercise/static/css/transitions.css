@@ -11,8 +11,6 @@ body {
   text-align: center;
   line-height: 50px;
   /* Add transition style below */
-  color: #fff;
-  transition: all .2s .2s ease-in-out;
 }
 
 
