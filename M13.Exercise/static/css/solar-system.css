@@ -1,0 +1,208 @@
+:root {
+  --sun-size: 150px;
+  --mercury-planet-size: calc(var(--sun-size) * .05 );
+  --mercury-axis-size: calc(var(--sun-size) * 2 );
+  --venus-planet-size: calc(var(--sun-size) * .2 );
+  --venus-axis-size: calc(var(--sun-size) * 2.4 );
+  --earth-planet-size: calc(var(--sun-size) * .1);
+  --earth-axis-size: calc(var(--sun-size) * 2.8);
+  --mars-planet-size: calc(var(--sun-size) * .13);
+  --mars-axis-size: calc(var(--sun-size) * 3.3);
+  --jupiter-planet-size: calc(var(--sun-size) * .3);
+  --jupiter-axis-size: calc(var(--sun-size) * 4.3);
+  --saturn-planet-size: calc(var(--sun-size) * .26);
+  --saturn-axis-size: calc(var(--sun-size) * 5.2);
+  --uranus-planet-size: calc(var(--sun-size) * .08);
+  --uranus-axis-size: calc(var(--sun-size) * 5.8);
+  --neptune-planet-size: calc(var(--sun-size) * .085);
+  --neptune-axis-size: calc(var(--sun-size) * 6.3);
+  --pluto-planet-size: calc(var(--sun-size) * .08);
+  --pluto-axis-size: calc(var(--sun-size) * 6.8);
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  background: radial-gradient(ellipse at center, #1C2837 0%, #050608 100%);
+  overflow: hidden;
+}
+
+.description {
+  position: absolute;
+  top: 30px;
+  letter-spacing: 100px;
+  width: 100%;
+  text-align: center;
+}
+
+.description h1 {
+  color: white;
+}
+
+.solar-system {
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  padding-top: 5%;
+}
+
+.solar-system div {
+  top: 50%;
+  left: 50%;
+  position: absolute;
+}
+
+.solar-system .sun {
+  width: var(--sun-size);
+  height: var(--sun-size);
+  position: absolute;
+  background: #f9b700;
+}
+
+.solar-system div:not(.sun) {
+  border: 1px solid rgba(102, 166, 229, 0.12);
+}
+
+.solar-system div:not(.sun):before {
+  left: 50%;
+  content: "";
+  position: absolute;
+}
+
+.mercury {
+  width: var(--mercury-axis-size);
+  height: var(--mercury-axis-size);
+}
+
+.mercury:before {
+  width: var(--mercury-planet-size);
+  height: var(--mercury-planet-size);
+  background: #9f5e26;
+}
+
+.venus {
+  width: var(--venus-axis-size);
+  height: var(--venus-axis-size);
+}
+
+.venus:before {
+  width: var(--venus-planet-size);
+  height: var(--venus-planet-size);
+  background: #7e773f;
+}
+
+.earth {
+  width: var(--earth-axis-size);
+  height: var(--earth-axis-size);
+}
+
+.earth:before {
+  width: var(--earth-planet-size);
+  height: var(--earth-planet-size);
+  background: #005a8a;
+}
+
+/* Moon */
+.earth .moon {
+  width: calc(var(--earth-planet-size) * 2);
+  height: calc(var(--earth-planet-size) * 2);
+  top: 0;
+  left: 50%;
+  animation-name: orbit-around-sun;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  border: none !important;
+}
+
+.earth .moon:before {
+  content: "";
+  position: absolute;
+  top: -5%;
+  left: 50%;
+  width: calc(var(--earth-planet-size) * .3);
+  height: calc(var(--earth-planet-size) * .3);
+  background: #9a7d00;
+}
+
+.mars {
+  width: var(--mars-axis-size);
+  height: var(--mars-axis-size);
+}
+
+.mars:before {
+  width: var(--mars-planet-size);
+  height: var(--mars-planet-size);
+  background: #8a2c00;
+}
+
+.jupiter {
+  width: var(--jupiter-axis-size);
+  height: var(--jupiter-axis-size);
+}
+
+.jupiter:before {
+  width: var(--jupiter-planet-size);
+  height: var(--jupiter-planet-size);
+  background: #954b2a;
+}
+
+.saturn {
+  width: var(--saturn-axis-size);
+  height: var(--saturn-axis-size);
+}
+
+.saturn:before {
+  width: var(--saturn-planet-size);
+  height: var(--saturn-planet-size);
+  background: #4f3b28;
+}
+
+.saturn:after {
+  width: calc(var(--saturn-planet-size) * 1.25);
+  height: calc(var(--saturn-planet-size) * 1.25);
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  border: 2px solid #a8835b;
+}
+
+.uranus {
+  width: var(--uranus-axis-size);
+  height: var(--uranus-axis-size);
+}
+
+.uranus:before {
+  width: var(--uranus-planet-size);
+  height: var(--uranus-planet-size);
+  background: #779c9c;
+}
+
+.neptune {
+  width: var(--neptune-axis-size);
+  height: var(--neptune-axis-size);
+}
+
+.neptune:before {
+  width: var(--neptune-planet-size);
+  height: var(--neptune-planet-size);
+  background: #163263;
+}
+
+.pluto {
+  width: var(--pluto-axis-size);
+  height: var(--pluto-axis-size);
+}
+
+.pluto:before {
+  width: var(--pluto-planet-size);
+  height: var(--pluto-planet-size);
+  background: #7f684f;
+}
+
+@keyframes orbit-around-sun {
+
+}
+

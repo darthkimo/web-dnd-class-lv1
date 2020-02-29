@@ -1,0 +1,17 @@
+body {
+  font-size: 14px;
+  color: #eee;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  background-color: #000;
+  
+  /* Add animation configuration here*/
+}
+
+@keyframes change-color {
+  /* Add some key frame animation to change background color and with or height here */
+}

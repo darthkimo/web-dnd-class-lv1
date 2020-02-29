@@ -1,0 +1,42 @@
+body {
+  font-size: 14px;
+  color: #eee;
+}
+
+h1 {
+  color: #333;
+  font-size: 30px;
+  font-weight: 900;
+  margin: 20px;
+  text-transform: uppercase;
+}
+
+.box {
+  float: left;
+  width: 150px;
+  height: 150px;
+  background-color: #5c8f28;
+  margin: 20px;
+  text-align: center;
+  line-height: 11em;
+  color: #fff;
+  border-radius: 15px;
+}
+
+.two {
+  /* Add box-shadow here */
+}
+
+.three {
+  /* Add box-shadow here */
+}
+
+.four {
+  /* Add box-shadow here */
+}
+
+.five {
+  /* Add box-shadow here */
+}
+
+

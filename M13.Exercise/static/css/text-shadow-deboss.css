@@ -1,0 +1,16 @@
+body {
+	font-size: 14px;
+	background-image: linear-gradient(#7ca4ff 0%, #002752 100%);
+	height: 100vh;
+}
+
+h1 {
+	color: #1e72ad;
+	font-size: 30px;
+	font-weight: 900;
+	margin: 20px;
+	text-transform: uppercase;
+	/* Add text-shadow here */
+}
+
+
